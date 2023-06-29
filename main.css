@@ -1,15 +1,36 @@
-body{
-        font-family: monospace;
+:root{
+    --blue: #58f5d5ef;
+    --white: #ffffff;
+    --black: #000000;
 }
+
+*{
+    color: var(--fontColor);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+     background: var(--bg);
+}
+
 ul{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 li{
     list-style: circle;
 }
+
 .list{
     list-style: square;
 }
-#msg{
-    font-family: monospace;
+
+.light-theme{
+    --bg: var(--blue);
+    --fontColor: var(--black);
+}
+
+.dark-theme{
+    --bg: var(--black)
+    --fontColor:var(--blue)
 }
