@@ -1,5 +1,5 @@
-:root{
-    --blue: #58f5d5ef;
+:root {
+    --blue: #58f5d5;
     --white: #ffffff;
     --black: #000000;
 }
@@ -28,18 +28,19 @@ li{
 .light-theme{
     --bg: var(--blue);
     --fontColor: var(--black);
-    --btnFontColor: var(--white)
+    --btnfontColor: var(--white)
     --btnBg: var(--black)
 }
 
 .dark-theme{
     --bg: var(--black);
     --fontColor: var(--blue);
-    --btnFontColor: var(--black)
+    --btnfontColor: var(--black)
     --btnBg: var(--white)
 }
+
 .btn{
-    color: var(--btnFontColor);
+    color: var(--btnfontColor);
     background-color: var(--btnBg);
     position: absolute;
     top: 20px;
@@ -48,8 +49,9 @@ li{
     width:50px;
     border-radius: 50%;
     border: none;
-    color: var(--btnFontColor);
+    color: var(--btnfontColor);
     background-color: var(--btnBg)
 }
 
-.btn: :focus { outline-style: none; }
+.btn:focus { 
+    outline-style: none; }
