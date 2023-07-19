@@ -1,2 +1,2 @@
 # site-simples
-Site simples criado no curso "Crie um site simples" da Escola do Trabalhador. Foram utilizadas as Linguagens HTML, CSS e Javascript
+Um primeiro site para treinar o básico do HTML, CSS e Javascript. Criado no curso "Crie um site simples" da Escola do Trabalhador.
